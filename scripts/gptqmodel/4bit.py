@@ -14,45 +14,6 @@ Perplexity:
 |     |       |strict-match    |     5|exact_match|↑  |0.6562|±  |0.0210|
 
 Throughput: 10.36 requests/s, 11940.46 total tokens/s, 1326.72 output tokens/s
-
-Citations:
-    @misc{qubitium2024gptqmodel,
-      author = {ModelCloud.ai and qubitium@modelcloud.ai},
-      title = {GPT-QModel},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {https://github.com/modelcloud/gptqmodel},
-      note = {Contact: qubitium@modelcloud.ai},
-      year = {2024},
-    }
-
-    @article{frantar-gptq,
-      title={{GPTQ}: Accurate Post-training Compression for Generative Pretrained Transformers},
-      author={Elias Frantar and Saleh Ashkboos and Torsten Hoefler and Dan Alistarh},
-      journal={arXiv preprint arXiv:2210.17323},
-      year={2022}
-    }
-
-    @article{liu2024eora,
-      title={EoRA: Training-free Compensation for Compressed LLM with Eigenspace Low-Rank Approximation},
-      author={Liu, Shih-Yang and Yang, Huck and Wang, Chien-Yi and Fung, Nai Chit and Yin, Hongxu and Sakr, Charbel and Muralidharan, Saurav and Cheng, Kwang-Ting and Kautz, Jan and Wang, Yu-Chiang Frank and others},
-      journal={arXiv preprint arXiv:2410.21271},
-      year={2024}
-    }
-
-    @article{gar,
-      title={Dual Precision Quantization for Efficient and Accurate Deep Neural Networks Inference, CVPRW 2025.},
-      author={T. Gafni, A. Karnieli, Y. Hanani},
-      journal={arXiv preprint arXiv:2505.14638},
-      year={2025}
-    }
-
-    @article{frantar2024marlin,
-      title={MARLIN: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models},
-      author={Frantar, Elias and Castro, Roberto L and Chen, Jiale and Hoefler, Torsten and Alistarh, Dan},
-      journal={arXiv preprint arXiv:2408.11743},
-      year={2024}
-    }
 """
 import torch
 import shutil
