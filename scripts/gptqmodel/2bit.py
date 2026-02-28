@@ -1,12 +1,5 @@
 """2-bit: GPTQ + EoRA with mse=1.5 + Aggressive Smoothing
 
-KEY OPTIMIZATIONS:
-1. mse=1.5: Lower for 2-bit stability (vs 0.15)
-2. group_size=32: Maximum granularity
-3. SmoothMSE: steps=96, maxshrink=0.65 (most aggressive)
-4. 1024 samples: Maximum coverage for 2-bit
-5. Skip embed_tokens + lm_head: Preserve critical I/O layers (34% of model)
-
 Checkpoint: https://huggingface.co/namgyu-youn/EXAONE-4.0-1.2B-GPTQ-W2A16
 
 Perplexity (BROKEN):
