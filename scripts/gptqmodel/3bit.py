@@ -1,5 +1,11 @@
 """3-bit: GPTQ + EoRA with mse=2.0 + Enhanced Smoothing
 
+KEY OPTIMIZATIONS:
+1. mse=2.0: Grid search (vs 0.1)
+2. group_size=64
+3. SmoothMSE: steps=64, maxshrink=0.70 (enhanced)
+4. 512 samples: Better coverage
+
 Checkpoint: https://huggingface.co/namgyu-youn/EXAONE-4.0-1.2B-GPTQ-W3A16-EoRA
 
 Perplexity: <TBU>

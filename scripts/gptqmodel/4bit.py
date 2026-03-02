@@ -1,5 +1,11 @@
 """4-bit: GPTQ + EoRA with mse=2.4 + Enhanced Smoothing
 
+KEY OPTIMIZATIONS:
+1. mse=2.4: Grid search for optimal scales/zeros (MAJOR boost)
+2. group_size=128
+3. SmoothMSE: steps=64, maxshrink=0.75 (vs steps=16, maxshrink=0.9)
+4. 512 samples: Better coverage
+
 Checkpoint: https://huggingface.co/namgyu-youn/EXAONE-4.0-1.2B-GPTQ-W4A16-EoRA
 
 Perplexity:
