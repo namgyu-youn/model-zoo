@@ -7,7 +7,7 @@ KEY OPTIMIZATIONS:
 4. 1024 samples: Maximum coverage for 2-bit
 5. Skip embed_tokens + lm_head: Preserve critical I/O layers (34% of model)
 
-Checkpoint: https://huggingface.co/namgyu-youn/EXAONE-4.0-1.2B-GPTQ-W2A16
+Checkpoint: namgyu-youn/EXAONE-4.0-1.2B-GPTQ-W2A16
 
 Perplexity (BROKEN):
 |-----|------:|----------------|-----:|-----------|---|-----:|---|-----:|
